@@ -6,12 +6,12 @@ terraform {
       version = "~>3.43.0"
     }
   }
-  cloud { 
-    organization = "my_org_jgdev522" 
-    workspaces { 
-      name = "remote_state" 
-    } 
-  } 
+  cloud {
+    organization = "my_org_jgdev522"
+    workspaces {
+      name = "remote_state"
+    }
+  }
 }
 
 
